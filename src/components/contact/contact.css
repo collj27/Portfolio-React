@@ -1,0 +1,11 @@
+input:hover, input:focus{
+    border-color: #9fbfdf;
+}
+
+input, textarea {
+    border-radius: 5px;
+}
+
+::-webkit-input-placeholder {
+    text-align: center;
+}

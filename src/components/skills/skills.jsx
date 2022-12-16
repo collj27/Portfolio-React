@@ -1,7 +1,7 @@
 import {Card, Col, Image, Row} from "react-bootstrap";
 import {faAngular, faPython, faJava, faReact,faSquareJs} from "@fortawesome/free-brands-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import postgresLogo from "../images/postgres_icon.png"
+import postgresLogo from "../../images/postgres_icon.png"
 
 function Skills() {
     return (

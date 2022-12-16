@@ -1,6 +1,6 @@
 import {Card, Col, Container, Image, Row} from "react-bootstrap";
 import aboutPic from "../../images/me_and_dunks.png"
-import Skills from "../skills";
+import Skills from "../skills/skills";
 import "./about.css"
 
 function About() {

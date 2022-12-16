@@ -1,9 +1,9 @@
 import {Card, Col, Container, Image, Row} from "react-bootstrap";
-import xRecruit from "../images/xrecruit.png"
+import xRecruit from "../../images/xrecruit.png"
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faPython, faReact, faStripe} from "@fortawesome/free-brands-svg-icons";
-import postgresLogo from "../images/postgres_icon.png"
-import renderLogo from "../images/render-logo.png"
+import postgresLogo from "../../images/postgres_icon.png"
+import renderLogo from "../../images/render-logo.png"
 
 
 function Projects() {
