@@ -1,7 +1,5 @@
-import {Card, Col, Image, Nav, Navbar, Row} from "react-bootstrap";
-import aboutPic from "../images/dunks_nightcafe.jpg"
+import {Card, Col, Image, Row} from "react-bootstrap";
 import {faAngular, faPython, faJava, faReact,faSquareJs} from "@fortawesome/free-brands-svg-icons";
-import {faEnvelope} from "@fortawesome/free-solid-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import postgresLogo from "../images/postgres_icon.png"
 
@@ -10,7 +8,7 @@ function Skills() {
         <Card>
             <Card.Body>
                 <Card.Title>
-                    <span className="underlined-title">Tools I've Used</span>
+                    <span className="underlined-title">Technologies I've Used</span>
                 </Card.Title>
                 <Row className="align-items-center mt-4">
                     <Col className="text-center">
@@ -33,7 +31,7 @@ function Skills() {
                     </Col>
                     <Col className="text-center">
                         <FontAwesomeIcon icon={faJava} size="2xl"/>
-                        <span> Java +Spring Boot</span>
+                        <span> Java + Spring Boot</span>
                     </Col>
                     <Col className="text-center">
                         <Image src={postgresLogo} width="28px"></Image>
