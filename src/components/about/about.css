@@ -1,0 +1,8 @@
+.wrap-around {
+    float: left;
+    margin-right: 10px;
+}
+
+p {
+    text-align: justify;
+}
