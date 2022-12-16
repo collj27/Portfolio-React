@@ -1,0 +1,58 @@
+/*** NAVBAR ***/
+.navbar {
+    font-family: 'Jura', 'Inter', sans-serif;
+    font-size: 18px;
+}
+
+.nav-link > span {
+    color: white;
+}
+
+.navbar-brand > span {
+    color: white;
+    border-bottom: 4px solid #9fbfdf;
+    padding-bottom: 0;
+}
+
+/*** CARDS ***/
+.card {
+    background-color: #414141 !important; /*prevent overwriting of card color*/
+    height: 100%;
+}
+
+.underlined-title {
+    font-weight: 700;
+    font-size: 24px;
+    border-bottom: 4px solid #9fbfdf;
+}
+
+
+.card-title {
+    text-align: center;
+}
+
+/*** BUTTONS ***/
+.btn {
+    background-color: #9fbfdf !important;
+    border-color: #9fbfdf !important;
+
+}
+
+.btn:hover {
+    background-color: #1E1E1E !important;
+    border-color: #9fbfdf !important;
+    color: #9fbfdf !important;
+}
+
+/*** FORMS ***/
+input:hover, input:focus, textarea:hover, textarea:focus{
+    border-color: #9fbfdf;
+}
+
+input, textarea {
+    border-radius: 5px;
+}
+
+::-webkit-input-placeholder {
+    text-align: center;
+}
