@@ -56,3 +56,21 @@ input, textarea {
 ::-webkit-input-placeholder {
     text-align: center;
 }
+
+/*** ICONS ***/
+
+.fa-react {
+    color: skyblue;
+}
+
+.fa-angular {
+    color: red;
+}
+
+.fa-square-js {
+    color: yellow;
+}
+
+.fa-stripe {
+    color: mediumpurple;
+}

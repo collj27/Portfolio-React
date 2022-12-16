@@ -1,5 +1,5 @@
 import {Card, Col, Container, Image, Nav, Navbar, Row} from "react-bootstrap";
-import aboutPic from "../dunks_nightcafe.jpg"
+import aboutPic from "../images/dunks_nightcafe.jpg"
 import Skills from "./skills";
 import Contact from "./contact";
 
