@@ -44,7 +44,7 @@ function Contact() {
                     </Toast>
                 </Col>
             </Row>
-            <Row className="justify-content-center mt-5">
+            <Row className="mt-5">
                 <Col>
                     <Row>
                         <Col className="text-center">
@@ -58,8 +58,8 @@ function Contact() {
                     </Row>
                 </Col>
             </Row>
-            <Row className="justify-content-center mt-5">
-                <Col className="mt-auto">
+            <Row className="mt-5">
+                <Col>
                     <form ref={form} onSubmit={sendEmail}>
                         <Row>
                             <Col className="text-center">
