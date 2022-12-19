@@ -1,5 +1,5 @@
 import {Card, Col, Image, Row} from "react-bootstrap";
-import {faAngular, faPython, faJava, faReact,faSquareJs} from "@fortawesome/free-brands-svg-icons";
+import {faAngular, faPython, faJava, faReact, faSquareJs, faBootstrap} from "@fortawesome/free-brands-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import postgresLogo from "../../images/postgres_icon.png"
 
@@ -12,16 +12,16 @@ function Skills() {
                 </Card.Title>
                 <Row className="align-items-center mt-4">
                     <Col className="text-center">
-                        <FontAwesomeIcon icon={faSquareJs} size="2xl"/>
-                        <span> Javascript</span>
-                    </Col>
-                    <Col className="text-center">
-                        <FontAwesomeIcon icon={faReact} size="2xl" />
+                        <FontAwesomeIcon icon={faReact} size="2xl"/>
                         <span>React</span>
                     </Col>
                     <Col className="text-center">
                         <FontAwesomeIcon icon={faAngular} size="2xl"/>
                         <span> Angular</span>
+                    </Col>
+                    <Col className="text-center">
+                        <FontAwesomeIcon icon={faBootstrap} size="2xl"/>
+                        <span>Bootstrap</span>
                     </Col>
                 </Row>
                 <Row className="align-items-center mt-4">

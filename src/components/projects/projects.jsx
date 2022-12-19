@@ -1,7 +1,7 @@
 import {Card, Col, Container, Image, Row} from "react-bootstrap";
 import xRecruit from "../../images/xrecruit.png"
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faPython, faReact, faStripe} from "@fortawesome/free-brands-svg-icons";
+import {faBootstrap, faPython, faReact, faStripe} from "@fortawesome/free-brands-svg-icons";
 import postgresLogo from "../../images/postgres_icon.png"
 import renderLogo from "../../images/render-logo.png"
 
@@ -39,6 +39,9 @@ function Projects() {
                                     <FontAwesomeIcon icon={faReact} size="2xl"/>
                                 </Col>
                                 <Col className="text-center">
+                                    <FontAwesomeIcon icon={faBootstrap} size="2xl"/>
+                                </Col>
+                                <Col className="text-center">
                                     <FontAwesomeIcon icon={faPython} size="2xl"/>
                                 </Col>
                                 <Col className="text-center">
@@ -74,6 +77,9 @@ function Projects() {
                             <Row className="align-items-center mt-4">
                                 <Col className="text-center">
                                     <FontAwesomeIcon icon={faReact} size="2xl"/>
+                                </Col>
+                                <Col className="text-center">
+                                    <FontAwesomeIcon icon={faBootstrap} size="2xl"/>
                                 </Col>
                                 <Col className="text-center">
                                     <Image src={renderLogo} width="56px"></Image>
