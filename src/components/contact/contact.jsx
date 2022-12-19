@@ -1,17 +1,19 @@
 import {useRef, useState} from "react";
 import emailjs from '@emailjs/browser';
-import {Col, Container, Row, Toast} from "react-bootstrap";
+import {Col, Container, Row, Spinner, Toast} from "react-bootstrap";
 import "./contact.css"
+import {useNavigate} from "react-router-dom";
 
 function Contact() {
 
     const [showToast, setShowToast] = useState(false);
     const [toastMsg, setToastMsg] = useState("");
     const [toastClass, setToastClass] = useState("");
-
     const toggleShowToast = () => setShowToast(!showToast);
-
     const form = useRef();
+    const navigate = useNavigate()
+
+    const [sendButton, setSendButton] = useState(<input className="btn btn-primary" type="submit" value="Send"/>);
 
 
     const sendEmail = (e) => {
@@ -19,22 +21,24 @@ function Contact() {
 
         emailjs.sendForm('service_243igq8', 'template_jk9ky3h', form.current, 'Yb6qKhAeEl4FShqPx')
             .then((result) => {
-                // show the user a success message
-                setToastMsg("Email sent successfully! I will respond as soon as possible.")
-                setToastClass("toast-success")
-                toggleShowToast()
-            }, () => {
-                // show the user an error
-                setToastMsg("Sorry, there was a problem sending the email. Please contact me on LinkedIn.")
-                setToastClass("toast-error")
-                toggleShowToast()
-            });
+                    // set spinner in case sending takes a bit
+                    setSendButton( <Spinner animation="border" />)
+
+                    // navigate to confirmation page
+                    navigate("/emailConfirmation");
+                },
+                () => {
+                    // show the user an error
+                    setToastMsg("Sorry, there was a problem sending the email. Please contact me on LinkedIn.")
+                    setToastClass("toast-error")
+                    toggleShowToast()
+                });
     };
 
     return (
         <Container>
             <Row className="justify-content-end">
-                <Col  xs={6} sm={5} md={4}>
+                <Col xs={6} sm={5} md={4}>
                     <Toast className={toastClass} show={showToast} onClose={toggleShowToast} delay={3000} autohide>
                         <Toast.Body>{toastMsg}</Toast.Body>
                     </Toast>
@@ -49,7 +53,7 @@ function Contact() {
                     </Row>
                     <Row className="mt-1">
                         <Col className="text-center">
-                            <span>Fill out the contact form or reach out on LinkedIn</span>
+                            <span>Fill out the contact form or reach out on <a className="linkedin-link" href="https://www.linkedin.com/in/james-coll-9198b7165/">LinkedIn</a></span>
                         </Col>
                     </Row>
                 </Col>
@@ -59,7 +63,7 @@ function Contact() {
                     <form ref={form} onSubmit={sendEmail}>
                         <Row>
                             <Col className="text-center">
-                                <input type="text" name="from_name" placeholder="Name"/>
+                                <input type="text" name="from_name" placeholder="Full Name"/>
                             </Col>
                         </Row>
                         <Row className="mt-3">
@@ -79,13 +83,12 @@ function Contact() {
                         </Row>
                         <Row>
                             <Col className="text-center">
-                                <input className="btn btn-primary" type="submit" value="Send"/>
+                                {sendButton}
                             </Col>
                         </Row>
                     </form>
                 </Col>
             </Row>
-
 
         </Container>
 

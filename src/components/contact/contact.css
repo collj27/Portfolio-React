@@ -1,7 +1,3 @@
-input:hover, input:focus{
-    border-color: #9fbfdf;
-}
-
 input, textarea {
     border-radius: 5px;
 }
@@ -16,4 +12,13 @@ input, textarea {
 
 .toast-error {
     background-color: red;
+}
+
+:invalid {
+    border-color:red;
+}
+
+.linkedin-link {
+    color:#0072b1;
+    text-decoration: none;
 }

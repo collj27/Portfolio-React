@@ -38,10 +38,6 @@
     color: red;
 }
 
-.fa-square-js {
-    color: yellow;
-}
-
 .fa-stripe {
     color: mediumpurple;
 }
@@ -60,5 +56,9 @@
 
 .fa-java {
     color: #f89820;
+}
+
+.fa-circle-check {
+    color: green;
 }
 

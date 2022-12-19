@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Projects from "./components/projects/projects";
 import Contact from "./components/contact/contact";
 import Header from "./components/header/header";
+import EmailConfirmation from "./components/emailConfirmation/emailConfirmation";
 
 function App() {
     return (
@@ -15,6 +16,7 @@ function App() {
                 <Route exact path='/about' element={<About/>}></Route>
                 <Route exact path='/projects' element={<Projects/>}></Route>
                 <Route exact path='/contact' element={<Contact/>}></Route>
+                <Route exact path='/emailConfirmation' element={<EmailConfirmation/>}></Route>
             </Routes>
         </Router>
     );
