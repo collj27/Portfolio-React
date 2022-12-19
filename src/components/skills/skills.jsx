@@ -13,29 +13,29 @@ function Skills() {
                 <Row className="align-items-center mt-4">
                     <Col className="text-center">
                         <FontAwesomeIcon icon={faReact} size="2xl"/>
-                        <span>React</span>
+                        <span className="d-none d-md-inline">React</span>
                     </Col>
                     <Col className="text-center">
                         <FontAwesomeIcon icon={faAngular} size="2xl"/>
-                        <span> Angular</span>
+                        <span className="d-none d-md-inline"> Angular</span>
                     </Col>
                     <Col className="text-center">
                         <FontAwesomeIcon icon={faBootstrap} size="2xl"/>
-                        <span>Bootstrap</span>
+                        <span className="d-none d-md-inline">Bootstrap</span>
                     </Col>
                 </Row>
                 <Row className="align-items-center mt-4">
                     <Col className="text-center">
                         <FontAwesomeIcon icon={faPython} size="2xl"/>
-                        <span> Python + Flask</span>
+                        <span className="d-none d-md-inline"> Python + Flask</span>
                     </Col>
                     <Col className="text-center">
                         <FontAwesomeIcon icon={faJava} size="2xl"/>
-                        <span> Java + Spring Boot</span>
+                        <span className="d-none d-md-inline"> Java + Spring Boot</span>
                     </Col>
                     <Col className="text-center">
                         <Image src={postgresLogo} width="28px"></Image>
-                        <span> Postgres</span>
+                        <span className="d-none d-md-inline"> Postgres</span>
                     </Col>
                 </Row>
             </Card.Body>
