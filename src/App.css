@@ -1,18 +1,3 @@
-/*** NAVBAR ***/
-.navbar {
-    font-family: 'Jura', 'Inter', sans-serif;
-    font-size: 18px;
-}
-
-.nav-link > span {
-    color: white;
-}
-
-.navbar-brand > span {
-    color: white;
-    border-bottom: 4px solid #9fbfdf;
-    padding-bottom: 0;
-}
 
 /*** CARDS ***/
 .card {
@@ -44,15 +29,36 @@
     color: #9fbfdf !important;
 }
 
-/*** FORMS ***/
-input:hover, input:focus, textarea:hover, textarea:focus{
-    border-color: #9fbfdf;
+/*** ICONS ***/
+.fa-react {
+    color: skyblue;
 }
 
-input, textarea {
-    border-radius: 5px;
+.fa-angular {
+    color: red;
 }
 
-::-webkit-input-placeholder {
-    text-align: center;
+.fa-stripe {
+    color: mediumpurple;
 }
+
+.fa-linkedin {
+    color:  #0072b1;
+}
+
+.fa-bootstrap {
+    color: #6f42c1;
+}
+
+.fa-python {
+    color:#4584b6;
+}
+
+.fa-java {
+    color: #f89820;
+}
+
+.fa-circle-check {
+    color: green;
+}
+
