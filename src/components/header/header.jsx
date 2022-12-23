@@ -20,7 +20,7 @@ function Header() {
                             <LinkContainer to="/contact">
                                 <Nav.Link>Contact</Nav.Link>
                             </LinkContainer>
-                            <Nav.Link href="https://www.linkedin.com/in/james-coll-9198b7165/">
+                            <Nav.Link href="https://www.linkedin.com/in/james-coll-9198b7165/" target="_blank">
                                 <FontAwesomeIcon icon={faLinkedin} size="xl"/>
                             </Nav.Link>
                         </Nav>

@@ -4,6 +4,7 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faBootstrap, faPython, faReact, faStripe} from "@fortawesome/free-brands-svg-icons";
 import postgresLogo from "../../images/postgres_icon.png"
 import renderLogo from "../../images/render-logo.png"
+import "./projects.css"
 
 
 function Projects() {
@@ -33,6 +34,13 @@ function Projects() {
                                 In it's current form, you can view a dummy player and school profile. Additionally, you
                                 can make test payments via Stripe.
                             </p>
+                            <p>
+                                <b>Disclaimer:</b>
+                                <span> I'm using the free version of render and consequently, it may take up to 30
+                                seconds for the </span>
+                                <a className="web-service-link" href="https://render.com/docs/free#free-web-services" target="_blank">web service</a>
+                                <span> to boot up. Please be patient, it's not broken!</span>
+                            </p>
 
                             <Row className="align-items-center mt-4">
                                 <Col className="text-center">
@@ -57,7 +65,7 @@ function Projects() {
                             </Row>
                         </Card.Body>
                         <Card.Footer className="text-end">
-                            <a href="https://xrecruit.onrender.com" className="btn btn-primary">Check it out</a>
+                            <a href="https://xrecruit.onrender.com" className="btn btn-primary" target="_blank">Check it out</a>
                         </Card.Footer>
                     </Card>
                 </Col>
@@ -88,7 +96,7 @@ function Projects() {
 
                         </Card.Body>
                         <Card.Footer className="text-end">
-                            <a href="https://github.com/collj27/Portfolio-React" className="btn btn-primary">Source Code</a>
+                            <a href="https://github.com/collj27/Portfolio-React" className="btn btn-primary" target="_blank">Source Code</a>
                         </Card.Footer>
                     </Card>
                 </Col>

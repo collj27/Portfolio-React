@@ -53,7 +53,7 @@ function Contact() {
                     </Row>
                     <Row className="mt-1">
                         <Col className="text-center">
-                            <span>Fill out the contact form or reach out on <a className="linkedin-link" href="https://www.linkedin.com/in/james-coll-9198b7165/">LinkedIn</a></span>
+                            <span>Fill out the contact form or reach out on <a className="linkedin-link" href="https://www.linkedin.com/in/james-coll-9198b7165/" target="_blank">LinkedIn</a></span>
                         </Col>
                     </Row>
                 </Col>
