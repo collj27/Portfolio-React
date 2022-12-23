@@ -58,7 +58,7 @@ function Contact() {
                     </Row>
                 </Col>
             </Row>
-            <Row className="mt-5">
+            <Row className="my-5">
                 <Col>
                     <form ref={form} onSubmit={sendEmail}>
                         <Row>
