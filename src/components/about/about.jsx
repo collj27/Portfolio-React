@@ -14,8 +14,9 @@ function About() {
                                 <span className="underlined-title">Hi, I'm James</span>
                             </Card.Title>
                             <Row>
+                                <Image className="d-inline d-sm-none" src={aboutPic}></Image>
                                 <Col className="align-items-center">
-                                    <Image className="wrap-around" src={aboutPic} width="200px"></Image>
+                                    <Image className="wrap-around d-none d-sm-inline" src={aboutPic} width="200px"></Image>
                                     <p>I'm a self-taught programmer with 3 years of development experience and I've
                                         had the good fortune to work with a variety of technologies. I've built responsive UIs
                                         for an enterprise payments application with Angular and I am currently learning React on side
