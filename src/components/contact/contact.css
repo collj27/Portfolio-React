@@ -1,0 +1,24 @@
+input, textarea {
+    border-radius: 5px;
+}
+
+::-webkit-input-placeholder {
+    text-align: center;
+}
+
+.toast-success {
+    background-color: green;
+}
+
+.toast-error {
+    background-color: red;
+}
+
+:invalid {
+    border-color:red;
+}
+
+.linkedin-link {
+    color:#0072b1;
+    text-decoration: none;
+}
