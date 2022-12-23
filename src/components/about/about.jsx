@@ -6,7 +6,7 @@ import "./about.css"
 function About() {
     return (
         <Container>
-            <Row className="mt-5">
+            <Row className="justify-content-center mt-5">
                 <Col xs={10} sm={12}>
                     <Card>
                         <Card.Body>
@@ -41,7 +41,7 @@ function About() {
                     </Card>
                 </Col>
             </Row>
-            <Row className="mt-5">
+            <Row className="justify-content-center my-5">
                 <Col xs={10} sm={12}>
                     <Skills></Skills>
                 </Col>
