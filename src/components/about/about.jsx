@@ -38,11 +38,6 @@ function About() {
                                         why I stand out; I'm comfortable collaborating with cross-functional teams and
                                         learning new technologies to drive my work forward independently.
                                     </p>
-                                    {/*                                   <p>
-                                        When I'm not working, I love to be outdoors whether it be hiking, surfing,
-                                        skiing, or just walking my dog. If I'm not doing that, you may find me reading or
-                                        playing with a text-to-image generator.
-                                    </p>*/}
                                     <p>
                                         If you have an open role or project that you think I'd be a good fit for, please
                                         don't hesitate to reach out. I'd love to connect and learn more about what
