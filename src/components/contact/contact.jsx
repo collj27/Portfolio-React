@@ -78,7 +78,8 @@ function Contact() {
                         </Row>
                         <Row className="mt-3">
                             <Col className="text-center">
-                                <textarea name="message" placeholder="Message" rows="15" cols="40"/>
+                                <textarea className="d-none d-sm-inline"name="message" placeholder="Message" rows="15" cols="40"/>
+                                <textarea className="d-inline d-sm-none"name="message" placeholder="Message" rows="15" cols="30"/>
                             </Col>
                         </Row>
                         <Row>
