@@ -39,7 +39,7 @@ function Projects() {
                                 <span> I'm using the free version of render and consequently, it may take up to 30
                                 seconds for the </span>
                                 <a className="web-service-link" href="https://render.com/docs/free#free-web-services"
-                                   target="_blank">web service</a>
+                                   target="_blank" rel="noreferrer">web service</a>
                                 <span> to boot up. Please be patient, it's not broken!</span>
                             </p>
 
@@ -69,15 +69,15 @@ function Projects() {
                             <Row>
                                 <Col>
                                     <a href="https://github.com/collj27/xrecruit-client" className="btn btn-primary"
-                                       target="_blank">Client Source Code</a>
+                                       target="_blank" rel="noreferrer">Client Source Code</a>
                                 </Col>
                                 <Col>
                                     <a href="https://github.com/collj27/xrecruit-api" className="btn btn-primary"
-                                       target="_blank">API Source Code</a>
+                                       target="_blank" rel="noreferrer">API Source Code</a>
                                 </Col>
                                 <Col>
-                                    <a href="https://xrecruit.onrender.com" className="btn btn-primary" target="_blank">
-                                        Check it out</a>
+                                    <a href="https://xrecruit.onrender.com" className="btn btn-primary" target="_blank"
+                                       rel="noreferrer">Check it out</a>
                                 </Col>
                             </Row>
                         </Card.Footer>
@@ -111,7 +111,7 @@ function Projects() {
                         </Card.Body>
                         <Card.Footer className="text-end">
                             <a href="https://github.com/collj27/Portfolio-React" className="btn btn-primary"
-                               target="_blank">Source Code</a>
+                               target="_blank" rel="noreferrer">Source Code</a>
                         </Card.Footer>
                     </Card>
                 </Col>
