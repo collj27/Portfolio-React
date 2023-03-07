@@ -38,7 +38,8 @@ function Projects() {
                                 <b>Disclaimer:</b>
                                 <span> I'm using the free version of render and consequently, it may take up to 30
                                 seconds for the </span>
-                                <a className="web-service-link" href="https://render.com/docs/free#free-web-services" target="_blank">web service</a>
+                                <a className="web-service-link" href="https://render.com/docs/free#free-web-services"
+                                   target="_blank">web service</a>
                                 <span> to boot up. Please be patient, it's not broken!</span>
                             </p>
 
@@ -65,12 +66,25 @@ function Projects() {
                             </Row>
                         </Card.Body>
                         <Card.Footer className="text-end">
-                            <a href="https://xrecruit.onrender.com" className="btn btn-primary" target="_blank">Check it out</a>
+                            <Row>
+                                <Col>
+                                    <a href="https://github.com/collj27/xrecruit-client" className="btn btn-primary"
+                                       target="_blank">Client Source Code</a>
+                                </Col>
+                                <Col>
+                                    <a href="https://github.com/collj27/xrecruit-api" className="btn btn-primary"
+                                       target="_blank">API Source Code</a>
+                                </Col>
+                                <Col>
+                                    <a href="https://xrecruit.onrender.com" className="btn btn-primary" target="_blank">
+                                        Check it out</a>
+                                </Col>
+                            </Row>
                         </Card.Footer>
                     </Card>
                 </Col>
             </Row>
-            <Row className="justify-content-center my-5" >
+            <Row className="justify-content-center my-5">
                 <Col xs={10} lg={6}>
                     <Card>
                         <Card.Body>
@@ -96,7 +110,8 @@ function Projects() {
 
                         </Card.Body>
                         <Card.Footer className="text-end">
-                            <a href="https://github.com/collj27/Portfolio-React" className="btn btn-primary" target="_blank">Source Code</a>
+                            <a href="https://github.com/collj27/Portfolio-React" className="btn btn-primary"
+                               target="_blank">Source Code</a>
                         </Card.Footer>
                     </Card>
                 </Col>
